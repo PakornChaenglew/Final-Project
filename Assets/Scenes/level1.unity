@@ -704,7 +704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &393457144
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 1000
   playerBody: {fileID: 1225757549}
-  islooking: 1
+  islooking: 0
 --- !u!1001 &1078488252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2246,6 +2246,7 @@ MonoBehaviour:
   playerMoveScpt: {fileID: 1225757550}
   mouceLookScpt: {fileID: 963194229}
   gameStartCanvas: {fileID: 393457143}
+  scorePanel: {fileID: 246343869}
   gameStartWaitTime: 0
   gameOverCanvas: {fileID: 1659992698}
   gameOverWaitTime: 2
@@ -3640,8 +3641,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1165883282}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 3
+        m_MethodName: Startlevel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -7,11 +7,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] CharacterController playerControllScpt;
     [SerializeField] PlayerMove playerMoveScpt;
     [SerializeField] MouceLook mouceLookScpt;
+    
 
     [Space]
     [Header("GameStart")]
     [SerializeField] GameObject gameStartCanvas;
+    [SerializeField] GameObject scorePanel;
     [SerializeField] float gameStartWaitTime;
+    
 
     [Space]
     [Header("GameOver")]
@@ -42,6 +45,14 @@ public class GameManager : MonoBehaviour
         gameOverCanvas.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         mouceLookScpt.islooking = false;
+    }
+
+    public void Startlevel()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        mouceLookScpt.islooking = true;
+        gameStartCanvas.SetActive(false);
+        scorePanel.SetActive(true);
     }
 
     public void WinLevel()

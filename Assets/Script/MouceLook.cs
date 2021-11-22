@@ -6,12 +6,9 @@ public class MouceLook : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
-    public bool islooking = true;
+    public bool islooking = false;
     float xRotation = 0f;
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
+
 
     void Update()
     {   

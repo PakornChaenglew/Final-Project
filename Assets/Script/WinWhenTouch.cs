@@ -6,7 +6,7 @@ public class WinWhenTouch : MonoBehaviour
 {
     public CoinCount coinCountScpt;
 
-    int x;
+    public int x;
     GameManager gameManagerScpt;
 
     private void Start()

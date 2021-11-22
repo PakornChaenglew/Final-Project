@@ -7,8 +7,8 @@ public class CoinCount : MonoBehaviour
 {
     int scoreCount = 0;
     public TMP_Text scoretext;
+    [SerializeField] WinWhenTouch winTouchScpt;
 
-    int x;
 
     public AudioSource source;
 
@@ -19,7 +19,7 @@ public class CoinCount : MonoBehaviour
             Destroy(other.gameObject);
             scoreCount++;
             scoretext.SetText(scoreCount.ToString());
-            x = scoreCount;
+            winTouchScpt.x = scoreCount;
             source.Play();
         }
     }

@@ -2117,7 +2117,7 @@ GameObject:
   - component: {fileID: 1095550931}
   - component: {fileID: 1095550930}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: WinWhenTouch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2136,6 +2136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinCountScpt: {fileID: 1225757551}
+  x: 0
 --- !u!65 &1095550931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2485,6 +2486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoretext: {fileID: 1613981390}
+  winTouchScpt: {fileID: 1095550930}
   source: {fileID: 1225757553}
 --- !u!54 &1225757552
 Rigidbody:

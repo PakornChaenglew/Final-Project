@@ -1508,7 +1508,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bfd125ed55ccc9c4ba387d851ce246b0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1620,17 +1620,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 6
-  angle: 360
-  enemyAiScpt: {fileID: 308645464}
-  source: {fileID: 308645463}
-  playerRef: {fileID: 1225757547}
+  radius: 0
+  angle: 0
+  enemyAiScpt: {fileID: 0}
+  source: {fileID: 0}
+  playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &308645466
@@ -3816,17 +3816,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 6
-  angle: 360
-  enemyAiScpt: {fileID: 781058186}
-  source: {fileID: 781058191}
-  playerRef: {fileID: 1225757547}
+  radius: 0
+  angle: 0
+  enemyAiScpt: {fileID: 0}
+  source: {fileID: 0}
+  playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!82 &781058191
@@ -3840,7 +3840,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bfd125ed55ccc9c4ba387d851ce246b0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5515,7 +5515,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bfd125ed55ccc9c4ba387d851ce246b0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5627,17 +5627,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 6
-  angle: 360
-  enemyAiScpt: {fileID: 1166772060}
-  source: {fileID: 1166772059}
-  playerRef: {fileID: 1225757547}
+  radius: 0
+  angle: 0
+  enemyAiScpt: {fileID: 0}
+  source: {fileID: 0}
+  playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &1166772062
@@ -6487,7 +6487,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bfd125ed55ccc9c4ba387d851ce246b0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -6599,17 +6599,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 6
-  angle: 360
-  enemyAiScpt: {fileID: 1291311052}
-  source: {fileID: 1291311051}
-  playerRef: {fileID: 1225757547}
+  radius: 0
+  angle: 0
+  enemyAiScpt: {fileID: 0}
+  source: {fileID: 0}
+  playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &1291311054
@@ -11481,7 +11481,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bfd125ed55ccc9c4ba387d851ce246b0, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -11593,17 +11593,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 6
-  angle: 360
-  enemyAiScpt: {fileID: 2132459228}
-  source: {fileID: 2132459227}
-  playerRef: {fileID: 1225757547}
+  radius: 0
+  angle: 0
+  enemyAiScpt: {fileID: 0}
+  source: {fileID: 0}
+  playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &2132459230

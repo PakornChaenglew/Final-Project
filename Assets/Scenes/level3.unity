@@ -198,7 +198,7 @@ Transform:
   - {fileID: 499099303}
   - {fileID: 1810516425}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6740798
 GameObject:
@@ -1620,17 +1620,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0
-  angle: 0
-  enemyAiScpt: {fileID: 0}
-  source: {fileID: 0}
-  playerRef: {fileID: 0}
+  radius: 6
+  angle: 360
+  enemyAiScpt: {fileID: 308645464}
+  source: {fileID: 308645463}
+  playerRef: {fileID: 1225757547}
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &308645466
@@ -1664,7 +1664,7 @@ Transform:
   m_Children:
   - {fileID: 873514989}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 183.882, z: 0}
 --- !u!1 &343657068
 GameObject:
@@ -3788,7 +3788,7 @@ Transform:
   m_Children:
   - {fileID: 196316364}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -129.971, z: 0}
 --- !u!136 &781058189
 CapsuleCollider:
@@ -3816,17 +3816,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0
-  angle: 0
-  enemyAiScpt: {fileID: 0}
-  source: {fileID: 0}
-  playerRef: {fileID: 0}
+  radius: 6
+  angle: 360
+  enemyAiScpt: {fileID: 781058186}
+  source: {fileID: 781058191}
+  playerRef: {fileID: 1225757547}
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!82 &781058191
@@ -5207,7 +5207,7 @@ Transform:
   m_LocalScale: {x: 17.077246, y: 16.613508, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1118709868 stripped
 Transform:
@@ -5454,7 +5454,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1166772056
 GameObject:
@@ -5627,17 +5627,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0
-  angle: 0
-  enemyAiScpt: {fileID: 0}
-  source: {fileID: 0}
-  playerRef: {fileID: 0}
+  radius: 6
+  angle: 360
+  enemyAiScpt: {fileID: 1166772060}
+  source: {fileID: 1166772059}
+  playerRef: {fileID: 1225757547}
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &1166772062
@@ -5671,7 +5671,7 @@ Transform:
   m_Children:
   - {fileID: 1609088355}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 183.882, z: 0}
 --- !u!1 &1192431519
 GameObject:
@@ -5955,7 +5955,7 @@ Transform:
   - {fileID: 963194228}
   - {fileID: 15715850}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1225757550
 MonoBehaviour:
@@ -6599,17 +6599,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0
-  angle: 0
-  enemyAiScpt: {fileID: 0}
-  source: {fileID: 0}
-  playerRef: {fileID: 0}
+  radius: 6
+  angle: 360
+  enemyAiScpt: {fileID: 1291311052}
+  source: {fileID: 1291311051}
+  playerRef: {fileID: 1225757547}
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &1291311054
@@ -6643,7 +6643,7 @@ Transform:
   m_Children:
   - {fileID: 2089775784}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 183.882, z: 0}
 --- !u!1 &1309842291
 GameObject:
@@ -6683,7 +6683,7 @@ Transform:
   - {fileID: 1118709868}
   - {fileID: 1031121271}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1327757379
 GameObject:
@@ -8240,7 +8240,7 @@ Transform:
   m_Children:
   - {fileID: 2128204498}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588500398
 GameObject:
@@ -9176,7 +9176,7 @@ RectTransform:
   - {fileID: 1659992699}
   - {fileID: 1875976090}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11230,7 +11230,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103347030
 GameObject:
@@ -11593,17 +11593,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3380a7d8d1d8a3448b708a4286e9262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0
-  angle: 0
-  enemyAiScpt: {fileID: 0}
-  source: {fileID: 0}
-  playerRef: {fileID: 0}
+  radius: 6
+  angle: 360
+  enemyAiScpt: {fileID: 2132459228}
+  source: {fileID: 2132459227}
+  playerRef: {fileID: 1225757547}
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   obstructionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   canSeePlayer: 0
   isPlayingSong: 0
 --- !u!143 &2132459230
@@ -11637,5 +11637,5 @@ Transform:
   m_Children:
   - {fileID: 567855263}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -86.947, z: 0}
